@@ -9,6 +9,10 @@
     ```
     pip install pandas
     ```
+3. Instale a biblioteca openpyxl, que também é usada para processar dados do Excel. Você pode instalar a biblioteca usando o pip, executando o seguinte comando no terminal ou prompt de comando:
+   ```
+   pip install openpyxl
+   ```
 
 ### Funcionamento
 
