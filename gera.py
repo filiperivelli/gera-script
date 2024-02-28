@@ -5,7 +5,7 @@ def gerar_comandos_insert(nome_arquivo):
     df = pd.read_excel(nome_arquivo, header=1)
     
     # Nome da tabela (você pode ajustar conforme necessário)
-    nome_tabela = "nome_da_tabela"
+    nome_tabela = input("Digite o nome da tabela:")
 
     # Obtém os nomes das colunas
     colunas = df.columns.tolist()
